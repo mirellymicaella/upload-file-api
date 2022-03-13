@@ -1,6 +1,8 @@
-run `docker-compose up -d`
-run `npm run migration`
-run `npm run dev`
+`docker-compose up -d`
+
+`npm run migration`
+
+`npm run dev`
 
 .env
 
