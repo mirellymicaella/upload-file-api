@@ -1,0 +1,3 @@
+mysql -u root -p1234
+USE master;
+CREATE TABLE files (  id INT AUTO_INCREMENT PRIMARY KEY, name varchar(255) NOT NULL,  size FLOAT NOT NULL,  createdAt DATETIME DEFAULT CURRENT_TIMESTAMP );
